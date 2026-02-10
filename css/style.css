@@ -1,0 +1,342 @@
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 0px;
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+/*--------------------------------------------------------------------- end skeleton ---------------------------------------------------------------------*/
+
+
+.header {
+  margin: 20px;
+}
+
+.logo {
+  max-width: 170px;
+}
+
+.nav-shad {
+     float: right;
+     background: #fff;
+     clear: both;
+     padding: 23px 25px !important;
+     border-radius: 64px;
+     font-weight: bold;
+     box-shadow: 11px 11px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-shad .nav-link {
+     padding: 0 20px;
+     color: #070404;
+     font-size: 17px;
+     line-height: 20px;
+     font-weight: 500;
+}
+
+.nav-shad .nav-link:focus,
+.nav-shad .nav-link:hover {
+     color: #02b119;
+}
+
+.nav-shad .active>.nav-link,
+.nav-shad .nav-link.active,
+.nav-shad .nav-link.show,
+.nav-shad .show>.nav-link {
+     color: #02b119;
+}
+
+#carousel-start {
+  margin-bottom: 100px;
+}
+
+.about {
+  padding-bottom: 100px;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 100px;
+}
+
+.about_img {
+  max-width: 500px;
+}
+
+.box-about-text {
+  align-content: center;
+}
+
+.about-text {
+  border: #000 solid 1.5px;
+  padding: 90px;
+}
+
+.about-text h2 {
+  color: black;
+}
+
+.our-products {
+  margin-bottom: 100px;
+}
+
+.box-products-text,
+.box-clients-text {
+  text-align: center;
+}
+
+.product {
+     font-size: 17px;
+     background-color: transparent;
+     padding: 15px 0px;
+     width: 100%;
+     max-width: 222px;
+     text-align: center;
+     font-weight: 500;
+     display: block;
+     margin: 0 auto;
+     margin-top: 44px;
+}
+
+.product figure {
+     width: 100%;
+}
+
+.product img {
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  transition-property: transform;
+}
+
+.product img:hover {
+    transform: scale(1.3);
+}
+
+.product img {
+  width: 80%;
+}
+
+.product p {
+  font-size: 20px;
+}
+
+.clients {
+  margin-bottom: 100px;
+}
+
+.logo-companies {
+  text-align: center;
+  align-content: center;
+}
+
+.logo-companies img {
+  width: 100%;
+  min-width: 50px;
+  max-width: 400px;
+  opacity: .5;
+  filter: grayscale(.7);
+}
+
+
+.mission {
+  align-content: center;
+  margin-bottom: 100px;
+}
+
+.box-ideals {
+  width: 100%;
+}
+
+.ideal {
+  border: #000 solid 1px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.footer {
+     background: #252525;
+     padding-top: 90px;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+}
+
+ul.social-media-icon {
+     text-align: center;
+}
+
+ul.social-media-icon li {
+     display: inline-block;
+     font-size: 17px;
+     line-height: 20px;
+     color: #fff;
+     text-align: center;
+     padding: 0 40px;
+}
+
+ul.social-media-icon li a {
+     font-size: 40px;
+     color: #fff;
+     line-height: 30px;
+     display: block;
+}
+
+.copyright {
+     margin-top: 80px;
+     background: #fbfdfd;
+}
+
+.copyright p {
+     color: #292929;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+     padding-top: 25px;
+     font-weight: normal;
+}
+
+.copyright a {
+     color: #292929;
+}
+
+.copyright a:hover {
+     color: #25d366;
+}
+
+.social-word {
+     font-size: 1rem;
+}
+
+#version {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: end;
+}
+
+#version p {
+  font-size: 0.8rem;
+  padding-right: 10px;
+}
+
+
+/** whatsapp button **/
+
+.float {
+     position: fixed;
+     width: 60px;
+     height: 60px;
+     bottom: 40px;
+     right: 40px;
+     background-color: #25d366;
+     color: #fff;
+     border-radius: 50px;
+     text-align: center;
+     align-content: center;
+     font-size: 30px;
+     box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+
+.float:hover {
+     text-decoration: none;
+     color: #fff;
+     background-color: #1ab152;
+     animation: shake 1s;
+     animation-iteration-count: infinite;
+}
+
+.pulse {
+     animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+     0% {
+          box-shadow: 0 0 0 8px #25d3664d;
+     }
+
+     100% {
+          box-shadow: 0 0 0 20px rgba(0, 0, 0, 0)
+     }
+}
+
+/** end whatsapp button **/
+/** up button **/
+
+.float-up {
+     position: fixed;
+     width: 60px;
+     height: 60px;
+     bottom: 120px;
+     right: 40px;
+     background-color: #fff;
+     opacity: 70%;
+     color: #685a5a;
+     border-radius: 50px;
+     text-align: center;
+     align-content: center;
+     font-size: 30px;
+     box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+     visibility: hidden;;
+}
+
+.float-up:hover {
+     text-decoration: none;
+     color: #fff;
+     background-color: #1ab152;
+     animation: shake 1s;
+     animation-iteration-count: infinite;
+}
+
+@media (max-width: 575px) {
+    .box-logo-company  {
+        text-align: center !important;
+        padding-bottom: 6px;
+        padding-top: 5px;
+        float: left;
+    }
+
+    .logo {
+      max-width: 80px;
+    }
+}
+
+/** end up button **/
